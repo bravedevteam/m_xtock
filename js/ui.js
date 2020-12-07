@@ -88,8 +88,8 @@ $(document).ready(function(){
         $('.tab li:last-child').css('font-weight','normal')
         $('.tab1_img').attr('src','images/btn_tab1_on.png');
         $('.tab2_img').attr('src','images/btn_tab2_off.png');
-        $('.tab2').show();
-        $('.tab1').hide();
+        $('.tab1').show();
+        $('.tab2').hide();
         $('.move').show();
         $('.move1').hide();
     })
@@ -98,8 +98,8 @@ $(document).ready(function(){
         $('.tab li:first-child').css('font-weight','normal')
         $('.tab1_img').attr('src','images/btn_tab1_off.png');
         $('.tab2_img').attr('src','images/btn_tab2_on.png');
-        $('.tab2').hide();
-        $('.tab1').show();
+        $('.tab1').hide();
+        $('.tab2').show();
         $('.move').hide();
         $('.move1').show();
     })
